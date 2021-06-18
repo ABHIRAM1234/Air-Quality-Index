@@ -16,3 +16,31 @@ I collected data from multiple sources give below
 - In Html_data.ipynb I have written code to dynamically download html pages by using 'url'
 - In **AQI_Plot.ipynb** I took the average of **PM2.5** feature and stored it in a list. I also plotted the data of every year
 - I have imported all the functions from **AQI_Plot** into Combine_data.ipynb. I scraped every html file created in **Html_data.ipynb** using **BeautifulSoup**. At the end of the notebook I removed features that had null values or was not needed. I combined the data taken from both sources and created a csv file in **excel** dialect. I read the csv file using pandas and stored it in a datframe so I can continue
+- The dependent feature is **PM2.5** and all other features are independent features
+
+
+## Feature Engineering
+- Checked for null values by using pandas and seaborn
+- Pairplot to for multivaraite analysis
+- Correletaion matrix with heatmap
+
+### Feature Importance 
+Since there are many independent features we can get the importance of each feature and the higher the score the more important the feature is. The feature importance is an inbuilt class that comes with **Tree Bases Regressor**. I used **Extra Tree Regressor** for extracting the top ten features
+
+## Machine Learning Models Used 
+1. Linear Regression
+2. Ridge/Lasso Regression
+3. Logistic Regression
+4. Multinomial Naïve Bayes
+5. Decision Tree
+6. Gradient Boosting Classifier
+7. Random Forest Classifier
+8. K-Nearest Neighbours
+9. Support Vector Machine-Linear Kernel
+10. Ada Boost
+11. XG Boost
+
+### Regression Evaluvation Metrics: 
+- Mean Absolute Error(MAE)
+- Mean Squared Error(MSE)
+- Root Mean Squared Error(RMSE)
