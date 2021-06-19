@@ -29,18 +29,17 @@ Since there are many independent features we can get the importance of each feat
 
 ## Machine Learning Models Used 
 1. Linear Regression
-2. Ridge/Lasso Regression
+2. Ridge/Lasso Regression: Used **GridSearchCV** to find best alpha value
 3. Logistic Regression
-4. Multinomial Naïve Bayes
-5. Decision Tree
-6. Gradient Boosting Classifier
-7. Random Forest Classifier
-8. K-Nearest Neighbours
-9. Support Vector Machine-Linear Kernel
-10. Ada Boost
-11. XG Boost
+4. Decision Tree Regressor
+5. KNN Regressor
+6. Random Forest Regressor
+7. Xgboost Regressor
+8. Hyperparameter Tuning
+9. Artificial Neural Network - ANN
 
 ### Regression Evaluvation Metrics: 
 - Mean Absolute Error(MAE)
 - Mean Squared Error(MSE)
 - Root Mean Squared Error(RMSE)
+
