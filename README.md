@@ -45,7 +45,7 @@ I have created pkl files for all the machine learning models that I have used
 - Mean Squared Error(MSE)
 - Root Mean Squared Error(RMSE)
 
-## Deployment using Flask and Heroku
+## Deployment using Flask
 - The *static* subfolder contains the CSS file and the *template* subfolder contains two html files
 - Home.html is the homepage which will have headings and a predict button
 - Result.html will help display the result after the prediction
