@@ -38,8 +38,24 @@ Since there are many independent features we can get the importance of each feat
 8. Hyperparameter Tuning
 9. Artificial Neural Network - ANN
 
+I have created pkl files for all the machine learning models that I have used
+
 ### Regression Evaluvation Metrics: 
 - Mean Absolute Error(MAE)
 - Mean Squared Error(MSE)
 - Root Mean Squared Error(RMSE)
+
+## Deployment using Flask and Heroku
+- The *static* subfolder contains the CSS file and the *template* subfolder contains two html files
+- Home.html is the homepage which will have headings and a predict button
+- Result.html will help display the result after the prediction
+- Pkl file is loaded into App.py and I will call the Flask app 
+- A Procfile is a mechanism for declaring what commands are run by your application's containers
+- 
+
+## Running the Flask App
+- Go to CMD(Command Prompt) and switch to the project folder directory
+- Type python app.py and you will recieve the url
+- Copy paste the local url and paste it into your browser
+- Click on predict button
 
