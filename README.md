@@ -51,7 +51,6 @@ I have created pkl files for all the machine learning models that I have used
 - Result.html will help display the result after the prediction
 - Pkl file is loaded into App.py and I will call the Flask app 
 - A Procfile is a mechanism for declaring what commands are run by your application's containers
-- 
 
 ## Running the Flask App
 - Go to CMD(Command Prompt) and switch to the project folder directory
